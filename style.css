@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family= Handjet :wght@500 & display=swap');
+
+body {
+    font-family: 'Handjet', kursif;
+    font-weight: 300 kursif;
+    background-image: url(image/bgg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body .bg-success {
+    background-color: black !important;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.profile h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0px 8px 0px;
+}
+
+.sosial-media a {
+    font-size: 20px;
+}
+
+.button-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-link img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.button-link p, .badge {
+    font-weight: 500 !important;
+}
+
+/* cursor edit */
+.button-link, .bg-white {
+    cursor: default;
+}
+.badge, .bg-success {
+    cursor: pointer;
+}
+h3 {
+    cursor: default;
+}
+p {
+    cursor: default;
+}
+img {
+    cursor: no-drop;
+}
+.button-link img {
+    cursor: default;
+}
+
+p a {
+    cursor: pointer;
+}
+
+/* footer css 1 */
+/* footer{
+    display: block;
+    font-family: 'Handjet', kursif;
+    background-color: rgb(60, 42, 74);
+    background-color: rgb(47, 27, 61);
+    color: whitesmoke;
+} */
+
+/* footer css 2 */
+/* footer {
+    background-color: rgb(60, 42, 74);
+    background-color: rgb(47, 27, 61);
+    padding: 30px;
+    text-align: center;
+
+  }
+  
+  footer p {
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+  }
+
+  footer span {
+    color: #fff;
+    cursor: default;
+  }
+
+  footer a img {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+  }
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  li a {
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+  } */
+
+  /* copyright section */
+  /* .copyright {
+    background-color: #2b1748;
+  }
+  .footer a img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    cursor: pointer;
+  } */
+
+
+/* Medium Device (tablets, 768px and up) */
+@media (min-width:768px) {
+    main {
+        max-width: 420px;
+    }
+}
+
+.footer {
+    position: relative;
+    margin-top: 45px;
+    background: #000
+}
+
+.footer .copyright {
+    margin-top: 60px;
+    padding: 0 30px
+}
+
+.footer .copyright .row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgba(256,256,256,.1)
+}
+
+.footer .copyright p {
+    margin: 0;
+    color: #fff
+}
+
+.footer .copyright .col-md-6:last-child p {
+    text-align: right
+}
+
+.footer .copyright p a {
+    color: #fff;
+    font-weight: 600
+}
+
+.footer .copyright p a:hover {
+    color: #f7cac9
+}
+
+@media (max-width: 767.98px) {
+    .footer .copyright .col-md-6:last-child p,.footer .copyright p {
+        margin:5px 0;
+        text-align: center
+    }
+}
