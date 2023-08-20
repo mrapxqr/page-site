@@ -193,6 +193,10 @@ p a {
     color: #f7cac9
 }
 
+.privat {
+    text-decoration: underline;
+}
+
 @media (max-width: 767.98px) {
     .footer .copyright .col-md-6:last-child p,.footer .copyright p {
         margin:5px 0;
